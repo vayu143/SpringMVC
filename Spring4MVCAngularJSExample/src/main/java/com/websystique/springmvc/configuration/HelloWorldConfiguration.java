@@ -22,7 +22,7 @@ public class HelloWorldConfiguration extends WebMvcConfigurerAdapter{
 		viewResolver.setSuffix(".jsp");
 		registry.viewResolver(viewResolver);
 	}
-//Sailaja changes
+//Sailaja changes changed by vayu
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
