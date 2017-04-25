@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.websystique.springmvc")
 public class HelloWorldConfiguration extends WebMvcConfigurerAdapter{
-	//FROM DEV BRANCH to dev branch
+	//FROM DEV BRANCH to dev branch changed by vayu
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
 		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
